@@ -28,6 +28,7 @@ class ResultsViewController: UIViewController {
     }
     
     // =========== IBAction定義　===========
+    // 遷移元の画面に遷移
     @IBAction func recalculatePressed(_ sender: UIButton) {
         dismiss(animated: true, completion: nil)
     }
